@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+
+    <!-- || ADD STYLE SHEET -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- || ADD FONT AWESOME LIBRARY -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+<body>
+    <!--|| HEADER SECTION -->
+    <header class="dashboard-header">
+        <!--|| LOGO SYMBOL SECTION -->
+        <div class="logo-symbol">
+            <span class="typed"></span>
+        </div>
+        <!--|| LOGO TEXT -->   
+        <div class="logo-text">
+            <a href="#">Div&Script</a>            
+        </div>
+        <!--|| NAVIGATION -->
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+           </ul>
+        </nav>
+        <!--|| TOGGLEBTN -->
+           <button class="togglebtn">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+           </button>  
+    </header>
+     
+    <!--|| SIDEBAR SECTION -->
+    <aside class="dashboard-sidebar">
+        <ul class="info-social">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+        </ul>
+     </aside> 
+
+    <!--|| SIDEBAR BUTTON SECTION -->
+    <div class="sidebar-btn">
+        <button class="left-btn">
+                <i class="fa fa-chevron-left"></i>
+        </button>
+        <button class="right-btn">
+                <i class="fa fa-chevron-right"></i>
+        </button>
+    </div>
+        
+    <!--|| MAIN SECTION -->
+    <main class="dashboard-main">
+        <h1>
+            Photo Gallery
+        </h1>
+        <!--|| GALLERY SECTION -->
+        <div class="gallery">
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Argentina.jpg"
+                alt="Argentina landscape"
+                title="Argentina">               
+                <figcaption>
+                    <h3>Argentina</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Australia.jpg"
+                alt="Australia landscape"
+                title="Australia">               
+                <figcaption>
+                    <h3>Australia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Bermuda.jpg"
+                alt="Bermuda landscape"
+                title="Bermuda">               
+                <figcaption>
+                    <h3>Bermuda</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Brazil.jpg"
+                alt="Brazil landscape"
+                title="Brazil">               
+                <figcaption>
+                    <h3>Brazil</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Canada.jpg"
+                alt="Canada landscape"
+                title="Canada">               
+                <figcaption>
+                    <h3>Canada</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Chile.jpg"
+                alt="Chile landscape"
+                title="Chile">               
+                <figcaption>
+                    <h3>Chile</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/China.jpg"
+                alt="China landscape"
+                title="China">               
+                <figcaption>
+                    <h3>China</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Colombia.jpg"
+                alt="Colombia landscape"
+                title="Colombia">               
+                <figcaption>
+                    <h3>Colombia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Costa_Rica.jpg"
+                alt="Costa Rica landscape"
+                title="Costa Rica">               
+                <figcaption>
+                    <h3>Costa Rica</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Croatia.jpg"
+                alt="Croatia landscape"
+                title="Croatia">               
+                <figcaption>
+                    <h3>Croatia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/France.jpg"
+                alt="France landscape"
+                title="France">               
+                <figcaption>
+                    <h3>France</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Greece.jpg"
+                alt="Greece landscape"
+                title="Greece">               
+                <figcaption>
+                    <h3>Greece</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Iceland.jpg"
+                alt="Iceland landscape"
+                title="Iceland">               
+                <figcaption>
+                    <h3>Iceland</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/India.jpg"
+                alt="India landscape"
+                title="India">               
+                <figcaption>
+                    <h3>India</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Indonesia.jpg"
+                alt="Indonesia landscape"
+                title="Indonesia">               
+                <figcaption>
+                    <h3>Indonesia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Italy.jpg"
+                alt="Italy landscape"
+                title="Italy">               
+                <figcaption>
+                    <h3>Italy</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Japan.jpg"
+                alt="Japan landscape"
+                title="Japan">               
+                <figcaption>
+                    <h3>Japan</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Kenya.jpg"
+                alt="Kenya landscape"
+                title="Kenya">               
+                <figcaption>
+                    <h3>Kenya</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Madagascar.jpg"
+                alt="Madagascar landscape"
+                title="Madagascar">               
+                <figcaption>
+                    <h3>Madagascar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Maldives.jpg"
+                alt="Maldives landscape"
+                title="Maldives">               
+                <figcaption>
+                    <h3>Maldives</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Mexico.jpg"
+                alt="Mexico landscape"
+                title="Mexico">               
+                <figcaption>
+                    <h3>Mexico</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Morocco.jpg"
+                alt="Morocco landscape"
+                title="Morocco">               
+                <figcaption>
+                    <h3>Morocco</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Namibia.jpg"
+                alt="Namibia landscape"
+                title="Namibia">               
+                <figcaption>
+                    <h3>Namibia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Nepal.jpg"
+                alt="Nepal landscape"
+                title="Nepal">               
+                <figcaption>
+                    <h3>Nepal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/New_Zealand.jpg"
+                alt="New Zealand landscape"
+                title="New Zealand">               
+                <figcaption>
+                    <h3>New Zealand</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Norway.jpg"
+                alt="Norway landscape"
+                title="Norway">               
+                <figcaption>
+                    <h3>Norway</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Oman.jpg"
+                alt="Oman landscape"
+                title="Oman">               
+                <figcaption>
+                    <h3>Oman</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Peru.jpg"
+                alt="Peru landscape"
+                title="Peru">               
+                <figcaption>
+                    <h3>Peru</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Philippines.jpg"
+                alt="Philippines landscape"
+                title="Philippines">               
+                <figcaption>
+                    <h3>Philippines</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Portugal.jpg"
+                alt="Portugal landscape"
+                title="Portugal">               
+                <figcaption>
+                    <h3>Portugal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Seychelles.jpg"
+                alt="Seychelles landscape"
+                title="Seychelles">               
+                <figcaption>
+                    <h3>Seychelles</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/South_Africa.jpg"
+                alt="South Africa landscape"
+                title="South Africa">               
+                <figcaption>
+                    <h3>South Africa</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Spain.jpg"
+                alt="Spain landscape"
+                title="Spain">               
+                <figcaption>
+                    <h3>Spain</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Sweden.jpg"
+                alt="Sweden landscape"
+                title="Sweden">               
+                <figcaption>
+                    <h3>Sweden</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Switzerland.jpg"
+                alt="Switzerland landscape"
+                title="Switzerland">               
+                <figcaption>
+                    <h3>Switzerland</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Tanzania.jpg"
+                alt="Tanzania landscape"
+                title="Tanzania">               
+                <figcaption>
+                    <h3>Tanzania</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Thailand.jpg"
+                alt="Thailand landscape"
+                title="Thailand">               
+                <figcaption>
+                    <h3>Thailand</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Turkey.jpg"
+                alt="Turkey landscape"
+                title="Turkey">               
+                <figcaption>
+                    <h3>Turkey</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Turks_and_Caicos.jpg"
+                alt="Turks and Caicos landscape"
+                title="Turks and Caicos">               
+                <figcaption>
+                    <h3>Turks and Caicos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/United_Kingdom.jpg"
+                alt="United Kingdom landscape"
+                title="United Kingdom">               
+                <figcaption>
+                    <h3>United Kingdom</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/United_States.jpg"
+                alt="United States landscape"
+                title="United States">               
+                <figcaption>
+                    <h3>United States</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>
+            <figure onclick="openFullImg(this)">
+                <img src="Image/Vietnam.jpg"
+                alt="Vietnam landscape"
+                title="Vietnam">               
+                <figcaption>
+                    <h3>Vietnam</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ad reiciendis iusto! Temporibus, deserunt. Saepe.</p>
+                </figcaption>
+            </figure>           
+        </div>           
+
+        <!--|| VIEW BOX SECTION -->
+        <div class="view-box">
+            <figure>
+                <img id="fullImg" src="" alt="" title="">
+                <figcaption id="caption">
+                    <h3 id="captionTitle"></h3>
+                    <p id="captionParagraph"></p>
+                </figcaption>
+            </figure>            
+            <div class="view-box-btn">
+                <button class="next-btn">
+                    <i class="fa">&#xf0da;</i>
+                </button>
+                <button class="prev-btn">
+                    <i class="fa">&#xf0d9;</i>
+                </button>
+                <button class="close-btn" onclick="closeViewBox()">
+                    <i class="fa">&#xf00d;</i>
+                </button>
+            </div>
+        </div>        
+    </main>
+
+    <!--|| FOOTER SECTION -->
+    <footer class="dashboard-footer">
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+           </ul>
+        </nav>
+    </footer>
+
+    <!--|| SCRIPT SECTION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
